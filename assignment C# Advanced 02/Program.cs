@@ -59,10 +59,10 @@ namespace assignment_C__Advanced_02
             FixedSizeList<int> list3 = new FixedSizeList<int>(3);
             list3.Add(1);
             list3.Add(2);
-            list3.Add(3);
-            for (int i = 0;i < list3.Count; i++)
+            list3.Add(3); 
+            for (int i = 0;i < list3.Count; i++)  
             {
-                Console.WriteLine(list3.Get(i));
+                Console.WriteLine(list3.Get(i)); 
             }
 
 
